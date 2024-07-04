@@ -1,5 +1,4 @@
 const pool = require('../db/db');
-const cTable = require('console.table');
 const inquirer = require('inquirer');
 
 function deleteRole(mainMenu) {

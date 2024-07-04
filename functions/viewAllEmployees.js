@@ -1,5 +1,5 @@
 const pool = require('../db/db');
-const cTable = require('console.table');
+
 
 function viewAllEmployees(mainMenu) {
     pool.query(`

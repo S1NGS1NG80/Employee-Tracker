@@ -1,5 +1,5 @@
 const pool = require('../db/db');
-const cTable = require('console.table');
+
 
 function viewAllDepartments(mainMenu) {
     pool.query('SELECT id, name FROM department', (err, res) => {
